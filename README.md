@@ -547,8 +547,6 @@ CityInfo cities[20];
 // initialize a struct
 CityInfo location = {"Asheville", "NC", 50000, 28};
 CityInfo location = {"Atlanta"};  // only cityName is initialized
-CityInfo cities[2] = {{"Asheville", "NC", 50000, 28},
-                      {"Atlanta", "GA", 45000, 90}};
 
 // access struct members
 location.population = 4750;
